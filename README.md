@@ -12,7 +12,7 @@
 - [x] Create a schema for this data.
 - [x] Post the data to the database.
 - [x] When submit button is clicked add the data to the database
-- [ ]
+- [ ] Set up get request and log it to the console.
 - [ ]
 - [ ] Display all message from the database onto the DOM
 - [ ]

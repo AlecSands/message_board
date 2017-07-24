@@ -47,6 +47,24 @@ app.post('/newMessage', function(req, res) {
 
 });
 
+app.get('/newMessage', function(req, res) {
+  console.log('getting message');
+
+  // create an object instance from our Person model
+
+  Message.find({}, function(err, data) {
+    if(err) {
+      console.log('find error:', err);
+      res.sendStatus(500);
+    } else {
+      console.log('request recieved');
+      res.send(data);
+    }
+  });
+
+
+});
+
 app.listen(port, function() {
   console.log('listening on', port);
 });

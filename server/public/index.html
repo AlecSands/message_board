@@ -15,6 +15,10 @@
         <button type="button" name="button" ng-click="mc.newMessage()">Submit</button>
       </div>
 
+      <div class="">
+        <p ng-repeat="message in mc.allMessages">{{message.name}}: {{message.message}}</p>
+      </div>
+
     </div>
   </body>
 </html>
