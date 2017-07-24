@@ -1,6 +1,6 @@
 # message_board
 
-- [ ] Setup server side folders and base files to serve up index.html
+- [x] Setup server side folders and base files to serve up index.html
 - [ ] Source in angular and log it to the console.
 - [ ]
 - [ ]
