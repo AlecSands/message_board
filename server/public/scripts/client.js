@@ -9,4 +9,8 @@ app.controller('MessageController', function(){
   var mc = this;
   console.log(mc);
 
+  mc.newMessage = function() {
+    console.log('add new message clicked');
+  };
+
 });
