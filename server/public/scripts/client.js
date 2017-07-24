@@ -9,8 +9,11 @@ app.controller('MessageController', function(){
   var mc = this;
   console.log(mc);
 
+  mc.name = "";
+  mc.message = "";
+
   mc.newMessage = function() {
-    console.log('add new message clicked');
+    console.log('add new message clicked by', mc.name, ', sending this message:', mc.message);
   };
 
 });

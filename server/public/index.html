@@ -10,8 +10,8 @@
     <h1>Message Board Bro</h1>
     <div class="" ng-controller="MessageController as mc">
       <div class="inputArea">
-        <input type="text" placeholder="name">
-        <input type="text" placeholder="message">
+        <input type="text" placeholder="name" ng-model="mc.name">
+        <input type="text" placeholder="message" ng-model="mc.message">
         <button type="button" name="button" ng-click="mc.newMessage()">Submit</button>
       </div>
 
